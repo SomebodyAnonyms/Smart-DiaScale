@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B07F391-EA5D-4D60-8F50-721E2AB165DC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Smart_DiaScale_I.My.MyApplication</StartupObject>
+    <RootNamespace>Smart_DiaScale_I</RootNamespace>
+    <AssemblyName>Smart DiaScale I</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Smart DiaScale I</ProductName>
+    <PublisherName>Smart DiaScale I</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Smart DiaScale I.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <CodeAnalysisRuleSet>SecurityRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Smart DiaScale I.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>blood.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_about_us.Designer.vb">
+      <DependentUpon>Form_about_us.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_about_us.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_add_dialysis.Designer.vb">
+      <DependentUpon>Form_add_dialysis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_add_dialysis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_add_patient.Designer.vb">
+      <DependentUpon>Form_add_patient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_add_patient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_backup_proccess.Designer.vb">
+      <DependentUpon>Form_backup_proccess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_backup_proccess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_delete_dialysis.Designer.vb">
+      <DependentUpon>Form_delete_dialysis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_delete_dialysis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_delete_patient.Designer.vb">
+      <DependentUpon>Form_delete_patient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_delete_patient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_dialysis_chart.Designer.vb">
+      <DependentUpon>Form_dialysis_chart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_dialysis_chart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_edit_dialysis.Designer.vb">
+      <DependentUpon>Form_edit_dialysis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_edit_dialysis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_edit_patient.Designer.vb">
+      <DependentUpon>Form_edit_patient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_edit_patient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_every_start.Designer.vb">
+      <DependentUpon>Form_every_start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_every_start.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_find_dialysis_number.Designer.vb">
+      <DependentUpon>Form_find_dialysis_number.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_find_dialysis_number.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_find_ID.Designer.vb">
+      <DependentUpon>Form_find_ID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_find_ID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_first_start_1.Designer.vb">
+      <DependentUpon>Form_first_start_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_first_start_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_first_start_2.Designer.vb">
+      <DependentUpon>Form_first_start_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_first_start_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_first_start_3.Designer.vb">
+      <DependentUpon>Form_first_start_3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_first_start_3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_main.Designer.vb">
+      <DependentUpon>Form_main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_receive_fingerprint.Designer.vb">
+      <DependentUpon>Form_receive_fingerprint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_receive_fingerprint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_security_enter_app.Designer.vb">
+      <DependentUpon>Form_security_enter_app.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_security_enter_app.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_security_need_access.Designer.vb">
+      <DependentUpon>Form_security_need_access.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_security_need_access.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_setting.Designer.vb">
+      <DependentUpon>Form_setting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_setting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_show_patient_database.Designer.vb">
+      <DependentUpon>Form_show_patient_database.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_show_patient_database.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_DBDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Main_DBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Module_Main.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form_about_us.resx">
+      <DependentUpon>Form_about_us.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_add_dialysis.resx">
+      <DependentUpon>Form_add_dialysis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_add_patient.resx">
+      <DependentUpon>Form_add_patient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_backup_proccess.resx">
+      <DependentUpon>Form_backup_proccess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_delete_dialysis.resx">
+      <DependentUpon>Form_delete_dialysis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_delete_patient.resx">
+      <DependentUpon>Form_delete_patient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_dialysis_chart.resx">
+      <DependentUpon>Form_dialysis_chart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_edit_dialysis.resx">
+      <DependentUpon>Form_edit_dialysis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_edit_patient.resx">
+      <DependentUpon>Form_edit_patient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_every_start.resx">
+      <DependentUpon>Form_every_start.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_find_dialysis_number.resx">
+      <DependentUpon>Form_find_dialysis_number.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_find_ID.resx">
+      <DependentUpon>Form_find_ID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_first_start_1.resx">
+      <DependentUpon>Form_first_start_1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_first_start_2.resx">
+      <DependentUpon>Form_first_start_2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_first_start_3.resx">
+      <DependentUpon>Form_first_start_3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_main.resx">
+      <DependentUpon>Form_main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_receive_fingerprint.resx">
+      <DependentUpon>Form_receive_fingerprint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_security_enter_app.resx">
+      <DependentUpon>Form_security_enter_app.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_security_need_access.resx">
+      <DependentUpon>Form_security_need_access.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_setting.resx">
+      <DependentUpon>Form_setting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_show_patient_database.resx">
+      <DependentUpon>Form_show_patient_database.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Main_DBDataSet.xsc">
+      <DependentUpon>Main_DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Main_DBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Main_DBDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Main_DBDataSet.xss">
+      <DependentUpon>Main_DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pictures\information.png" />
+    <None Include="pictures\warning.png" />
+    <None Include="pictures\question.png" />
+    <None Include="pictures\error.png" />
+    <None Include="pictures\spain.png" />
+    <None Include="pictures\saudi_arabia.png" />
+    <None Include="pictures\cancel.png" />
+    <None Include="pictures\add_patient_image.png" />
+    <None Include="pictures\help.png" />
+    <None Include="pictures\about_us.png" />
+    <None Include="pictures\reload.png" />
+    <None Include="pictures\switch %284%29.png" />
+    <None Include="pictures\switch %283%29.png" />
+    <None Include="pictures\switch %282%29.png" />
+    <None Include="pictures\switch %281%29.png" />
+    <None Include="pictures\default_setting.png" />
+    <None Include="pictures\visible.png" />
+    <None Include="pictures\visible%281%29.png" />
+    <None Include="pictures\chart.png" />
+    <None Include="pictures\woman.png" />
+    <None Include="Gif\fingerprint_scan.gif" />
+    <None Include="Gif\chart.gif" />
+    <None Include="Gif\loading.gif" />
+    <None Include="Logo\Logo.png" />
+    <Content Include="blood.ico" />
+    <None Include="Logo\Logo_Transparency.png" />
+    <Content Include="Main_DB.mdf" />
+    <Content Include="Main_DB_log.ldf">
+      <DependentUpon>Main_DB.mdf</DependentUpon>
+    </Content>
+    <None Include="pictures\usa.png" />
+    <None Include="pictures\settings.png" />
+    <None Include="pictures\refresh.png" />
+    <None Include="pictures\recovery.png" />
+    <None Include="pictures\print.png" />
+    <None Include="pictures\plus.png" />
+    <None Include="pictures\minus.png" />
+    <None Include="pictures\menu.png" />
+    <None Include="pictures\menu%281%29.png" />
+    <None Include="pictures\man.png" />
+    <None Include="pictures\language.png" />
+    <None Include="pictures\iran.png" />
+    <None Include="pictures\folder.png" />
+    <None Include="pictures\fingerprint_scanner.png" />
+    <None Include="pictures\fingerprint.png" />
+    <None Include="pictures\fingerprint%281%29.png" />
+    <None Include="pictures\edit.png" />
+    <None Include="pictures\dialysis.png" />
+    <None Include="pictures\calendar.png" />
+    <None Include="pictures\backup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.ReportViewer.11.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Report Viewer 2012 Runtime</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SqlServer.Express.11.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2012 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SqlServer.SqlLocalDB.11.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2012 Express LocalDB</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VisualBasic.PowerPacks.10.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Basic PowerPacks 10.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

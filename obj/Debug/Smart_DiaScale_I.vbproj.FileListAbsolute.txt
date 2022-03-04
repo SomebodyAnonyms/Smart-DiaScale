@@ -1,0 +1,57 @@
+E:\programs\Scale\Scale\bin\Debug\Smart DiaScale I.exe.config
+E:\programs\Scale\Scale\bin\Debug\Smart DiaScale I.exe
+E:\programs\Scale\Scale\bin\Debug\Smart DiaScale I.pdb
+E:\programs\Scale\Scale\bin\Debug\Smart DiaScale I.xml
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_about_us.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_add_dialysis.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_add_patient.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_backup_proccess.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_delete_dialysis.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_delete_patient.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_dialysis_chart.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_edit_dialysis.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_edit_patient.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_every_start.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_find_dialysis_number.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_find_ID.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_first_start_1.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_first_start_2.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_main.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_receive_fingerprint.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_setting.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Form_show_patient_database.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.Resources.resources
+E:\programs\Scale\Scale\obj\Debug\Smart_DiaScale_I.vbproj.GenerateResource.Cache
+E:\programs\Scale\Scale\obj\Debug\Smart DiaScale I.exe
+E:\programs\Scale\Scale\obj\Debug\Smart DiaScale I.xml
+E:\programs\Scale\Scale\obj\Debug\Smart DiaScale I.pdb
+E:\programs\Smart DiaScale I\Smart DiaScale I\bin\Debug\Smart DiaScale I.exe.config
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart DiaScale I.exe
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart DiaScale I.xml
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart DiaScale I.pdb
+E:\programs\Smart DiaScale I\Smart DiaScale I\bin\Debug\Smart DiaScale I.exe
+E:\programs\Smart DiaScale I\Smart DiaScale I\bin\Debug\Smart DiaScale I.pdb
+E:\programs\Smart DiaScale I\Smart DiaScale I\bin\Debug\Smart DiaScale I.xml
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_about_us.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_add_dialysis.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_add_patient.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_backup_proccess.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_delete_dialysis.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_delete_patient.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_dialysis_chart.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_edit_dialysis.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_edit_patient.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_every_start.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_find_dialysis_number.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_find_ID.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_first_start_1.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_first_start_2.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_main.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_receive_fingerprint.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_setting.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_show_patient_database.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Resources.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.vbproj.GenerateResource.Cache
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_first_start_3.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_security_enter_app.resources
+E:\programs\Smart DiaScale I\Smart DiaScale I\obj\Debug\Smart_DiaScale_I.Form_security_need_access.resources
